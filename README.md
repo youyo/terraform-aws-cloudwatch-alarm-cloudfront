@@ -10,7 +10,7 @@ Not supported `metric_query` .
 ## Usage
 
 ```hcl
-module my_ebs {
+module my_alarm {
   source = "youyo/cloudwatch-alarm-cloudfront/aws"
 
   identifier       = "my-alarm/prod"
